@@ -120,7 +120,7 @@ gitment: false
 
 # use gitalk://github.com/gitalk/gitalk
 gitalk:
-  enable: true
+  enable: false
   owner: kakrot
   repo: https://github.com/kakrot/kakrot.github.io/issues
   client_id: fb64565d3033339e73fa
