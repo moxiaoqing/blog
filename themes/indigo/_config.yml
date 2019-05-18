@@ -52,7 +52,7 @@ categories_title: Categories
 
 # 文章截断
 excerpt_render: false
-excerpt_length: 300
+excerpt_length: 100
 excerpt_link: 阅读全文...
 mathjax: true
 archive_yearly: true
@@ -119,12 +119,7 @@ gitment: false
 #   client_secret:
 
 # use gitalk://github.com/gitalk/gitalk
-gitalk:
-  enable: false
-  owner: kakrot
-  repo: https://github.com/kakrot/kakrot.github.io/issues
-  client_id: fb64565d3033339e73fa
-  client_secret: 1206c9beb19af07565eb6b1efd18fca7550ba900
+gitalk: false
 
 # Valine Comment system. https://valine.js.org
 valine:
