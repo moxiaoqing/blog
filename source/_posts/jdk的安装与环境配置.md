@@ -2,7 +2,8 @@
 title: jdk的安装与环境配置
 date: 2019-04-01 20:56:35
 tags: java
-comments: true
+categories: java
+comments: false
 ---
 https://www.oracle.com/technetwork/java/javase/downloads/index.html
 
@@ -18,6 +19,7 @@ export JAVA_HOME
 export PATH
 export CLASSPATH
 ```
+<!-- more -->
 4.使用"source .bash_profile"使配置生效
 
 ### Ubuntu

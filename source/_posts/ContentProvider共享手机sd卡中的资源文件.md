@@ -2,9 +2,11 @@
 title: ContentProvider共享手机sd卡中的资源文件
 date: 2019-05-17 19:55:08
 tags: android
+categories: android
+comments: false
 ---
 ContentProvider通过uri来标识其它应用要访问的数据，通过ContentResolver的增、删、改、查方法实现对共享数据的操作。还可以通过注册ContentObserver来监听数据是否发生了变化来对应的刷新页面。
-
+<!-- more -->
 通过ContentResolver加载手机中的文件
 ``` bash
 abstract class LocalStorageLoader<T> {

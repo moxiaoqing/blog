@@ -7,19 +7,26 @@
     <%- partial('common/navbar', { page }) %>
     <% function main_column_class() {
         switch (column_count()) {
-            case 1:
-                return 'is-12';
-            case 2:
-                return 'is-8-tablet is-8-desktop is-8-widescreen';
-            case 3:
-                return 'is-8-tablet is-8-desktop is-6-widescreen'
+             case 1:
+                 return 'is-10';
+             case 2:
+                 return 'is-6-tablet is-6-desktop is-10-widescreen';
+             case 3:
+                 return 'is-8-tablet is-8-desktop is-6-widescreen';
         }
         return '';
     } %>
+    <% function col(){
+            if(!is_post()){
+                return main_column_class();
+            }else{
+                return 'is-6-tablet is-6-desktop is-9-widescreen';
+            }
+        } %>
     <section class="section">
         <div class="container">
             <div class="columns">
-                <div class="column <%= main_column_class() %> has-order-2 column-main"><%- body %></div>
+                <div class="column <%= col() %> has-order-2 column-main"><%- body %></div>
                 <%- partial('common/widget', { position: 'left' }) %>
                 <%- partial('common/widget', { position: 'right' }) %>
             </div>

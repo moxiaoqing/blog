@@ -2,14 +2,15 @@
 title: AndroidStudio插件
 date: 2019-04-02 11:21:32
 tags: android
-comments: true
+categories: android
+comments: false
 ---
 ### CodeGlance
 在右边可以预览代码，实现快速定位
 
 ### Alibaba Java Coding Guidelines
 阿里出的一个代码编写规范检测的插件。
-
+<!-- more -->
 ### LayoutFormatter
 此插件是XML格式化插件，自动排序，能够根据正确的排序顺序进行排序。
 {% asset_img 2650372-b3d1e3ea41769798.png  %}
