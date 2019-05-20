@@ -5,8 +5,7 @@ tags: android
 categories: android
 comments: false
 ---
-### RecyclerView封装了ViewHolder的回收复用，也就是说RecyclerView标准化了ViewHolder，编写Adapter面向的是ViewHolder而不再是View了，复用的逻辑被封装了，写起来更加简单。
-直接省去了ListView中convertView.setTag(holder)和convertView.getTag()这些繁琐的步骤。
+RecyclerView封装了ViewHolder的回收复用，也就是说RecyclerView标准化了ViewHolder，编写Adapter面向的是ViewHolder而不再是View了，复用的逻辑被封装了，写起来更加简单。直接省去了ListView中convertView.setTag(holder)和convertView.getTag()这些繁琐的步骤。
 <!-- more -->
 ### 提供了一种插拔式的体验，高度的解耦，异常的灵活，针对一个Item的显示RecyclerView专门抽取出了相应的类，来控制Item的显示，使其的扩展性非常强。
 ### 设置布局管理器以控制Item的布局方式，横向、竖向以及瀑布流方式
