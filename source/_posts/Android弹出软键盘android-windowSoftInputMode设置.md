@@ -1,8 +1,8 @@
 ---
-title: 'Android 弹出软键盘android:windowSoftInputMode设置'
+title: 'Android弹出软键盘android:windowSoftInputMode设置'
 date: 2019-05-20 09:56:58
 tags: android
-categories: android
+categories: android软键盘
 comments: false
 ---
 当在Android的layout设计里面如果输入框过多，则在输入弹出软键盘的时候，下面的输入框会有一部分被软件盘挡住，从而不能获取焦点输入。或者是有使用FrameLayout悬浮在底部的Button也会挡住输入框。
@@ -20,7 +20,7 @@ comments: false
     把顶级的layout替换成ScrollView，或者说在顶级的Layout上面再加一层ScrollView的封装。这样就会把软键盘和输入框一起滚动了，软键盘会一直处于底部。
 
 ### stateUnspecified
-软键盘的状态 (是否它是隐藏或可见)没有被指定。系统将选择一个合适的状态或依赖于主题的设置。这个是为了软件盘行为默认的设置。
+软键盘的状态(是否它是隐藏或可见)没有被指定。系统将选择一个合适的状态或依赖于主题的设置。这个是为了软件盘行为默认的设置。
 ### stateUnchanged
 软键盘被保持无论它上次是什么状态，是否可见或隐藏，当主窗口出现在前面时。
 ### stateHidden

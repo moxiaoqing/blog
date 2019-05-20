@@ -2,7 +2,7 @@
 title: Android软键盘的显示和隐藏InputMethodManager
 date: 2019-05-20 09:40:33
 tags: android
-categories: android
+categories: android软键盘
 comments: false
 ---
 如果有需要用到输入的地方，通常会有需要自动弹出或者收起软键盘的需求。想要操作软键盘，需要使用到 InputMethodManager ，它是一个系统服务，可以使用 Context.getSystemService() 获取到它。而很多关键的逻辑代码，都是在 InputMethodManagerService 中实现的。
